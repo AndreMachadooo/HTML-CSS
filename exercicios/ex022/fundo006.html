@@ -6,12 +6,21 @@
     <title>Posicçao de Fundos</title>
     <style>
         body{
-            height: 98vh;
+            /*height: 98vh;
             background-color: black;
             background-image: url(imagens/wallpaper002.jpg);
-            background-repeat: repeat-y;
+            background-repeat: no-repeat;
             background-position: center center;
-            background-size: contain;
+            background-size: cover;
+            background-attachment: fixed;*/
+
+            /* 
+            shorthand background
+            color > image > position > repeat > [size] > attachment
+            */
+
+            background: black url(imagens/wallpaper002.jpg) center center no-repeat fixed;
+            background-size: cover;
         }
 
         main{
